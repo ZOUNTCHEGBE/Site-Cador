@@ -1,0 +1,28 @@
+/* Ajoutez ces styles à votre fichier styles.css */
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.service {
+    text-align: center;
+    max-width: 300px;
+}
+
+.service img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 1.2em;
+    color: #555;
+}
