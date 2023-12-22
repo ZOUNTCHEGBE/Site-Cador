@@ -31,10 +31,57 @@ body {
     padding: 0;
     font-family: 'Arial', sans-serif;
 }
+header {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Assurez-vous que la barre de navigation est au-dessus de tout autre contenu */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5em;
+}
+.logo img {
+    width: 150px; /* Ajustez la largeur selon vos besoins */
+    height: auto;
+}
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #061f80;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #000000;
+}
+.nav-links a[href="#blog"] {
+    color: #007BFF; /* Couleur différente pour le lien "Blog" */
+}
 
 .banner {
     position: relative;
-    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    height: 1000px; /* Ajustez la hauteur selon vos besoins */
     overflow: hidden;
 }
 
@@ -58,6 +105,7 @@ body {
     justify-content: center;
     align-items: center;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur noire avec une opacité de 0.5 (ajustez selon vos besoins) */
 }
 
 .overlay h1 {
