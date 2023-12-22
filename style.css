@@ -53,7 +53,7 @@ nav {
 
 .banner {
     position: relative;
-    height: 400px; /* Ajustez la hauteur selon vos besoins */
+    height: 600px; /* Ajustez la hauteur selon vos besoins */
     overflow: hidden;
 }
 
@@ -77,6 +77,7 @@ nav {
     justify-content: center;
     align-items: center;
     color: #fff;
+    background-color: rgba(0, 0, 0, 0.7); /* Couleur noire avec une opacité de 0.5 (ajustez selon vos besoins) */
 }
 
 .overlay h1 {
