@@ -1,31 +1,25 @@
-/* Ajoutez ces styles à votre fichier styles.css */
 
-.services {
-    display: flex;
-    justify-content: space-around;
-    padding: 50px 0;
+#services {
+  display: flex;
+  align-items: center;
+  padding: 20px;
 }
 
-.service {
-    text-align: center;
-    max-width: 300px;
+.text {
+  flex: 1;
+  padding-right: 20px;
 }
 
-.service img {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 20px;
+.text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
 
-.service h2 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
+.carousel img {
+  width: 100%; /* Ajustez la taille des images selon vos besoins */
+  margin-bottom: 10px; /* Espace entre chaque image, ajustez selon vos préférences */
 }
-
-.service p {
-    font-size: 1.2em;
-    color: #555;
-}
+  
 body {
     margin: 0;
     padding: 0;
